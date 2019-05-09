@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../images/bg111.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0);
+    visibility: inherit;
+    opacity: 1;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*Header Section design*/
+
+header{
+    background-color: #09151869;
+    padding: 10px 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+}
+nav ul{}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #4BD087;
+    background-color: #2e2f2f;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+nav ul li a img{
+    width: 130px;
+}
+
+
+/*Form Section design*/
+
+.content-section{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin-top: 110px;
+}
+.text-content{
+    color: #fff;
+    padding-left: 200px;
+}
+.text-content h1{
+    font-weight: 300;
+}
+.text-content h1 span{
+    font-family: monospace;
+    font-size: 34px;
+    font-weight: 200;
+    color: #5ecf80;
+}
+.text-content p{}
+.check-item .far{
+    float: left;
+    margin-right: 5px;
+}
+
+.register{}
+form{
+    width: 300px;
+    background-color: #59c278e6;
+    padding: 40px 20px 30px 20px;
+    border-radius: 4px;
+}
+form h2{
+    color: #fff;
+    text-align: center;
+}
+form p{
+    color: #fff;
+    text-align: center;
+}
+form .fas{}
+input{
+    width: 100%;
+    border: 1px solid #5ecf80;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.regi-btn{
+    color: #fff;
+    background-color: #158235;
+    box-shadow: 1px 6px #0be6253d;
+    cursor: pointer;
+}
+button{
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #54b471;
+    margin-top: 15px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    border-color: #54b47100;
+    cursor: pointer;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+button:hover{
+    color: #54b471;
+    background-color: #fff;
+    transition: 0.4s;
+}
+button a:hover{
+        color: #54b471;
+    background-color: #fff;
+    transition: 0.4s;
+}
+.audio-section{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.audio-section h1{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
